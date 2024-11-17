@@ -1,0 +1,118 @@
+/* App.css */
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.menu-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px; 
+}
+
+.category-buttons-container {
+    padding: 20px;
+}
+
+.category-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.category-buttons button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.category-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu-item {
+    flex: 1 1 100px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.menu-item h3 {
+    margin-top: 0;
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-buttons-right {
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Popup form */
+  
+  .popup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup form input,
+  .popup form select {
+    margin-bottom: 10px;
+  }
+  
+  .popup form button {
+    margin-top: 10px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-inner {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    width: 300px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}

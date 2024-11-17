@@ -1,0 +1,25 @@
+Tools to download:
+
+Node.js and npm: Ensure you have Node.js and npm installed. You can download and install them from Node.js official website.
+
+MongoDB: Make sure you have MongoDB installed and running. You can download and install it from MongoDB official website.z
+
+Steps to run \
+
+1. Save the restaurant-app folder in LOCAL DISK D
+
+2. Package installation should be in the root directory restaurant-app where json file is located
+
+npm install
+npm install express mongoose body-parser cors jsonwebtoken bcrypt nodemon
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+3. Start the application:
+
+start the database = mongod
+node server.js
+npm start
+
+C:/Users/mutas/Documents/Job Hunts/Projects/restaurant-app/model
+
